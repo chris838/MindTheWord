@@ -6,7 +6,7 @@
   "default_locale": "en",
   "content_security_policy": "media-src 'self'; object-src 'self'; script-src 'self' https://www.google.com https://ssl.google-analytics.com;",
   "background" : {
-    "scripts" : ["assets/js/google-analytics.js", "background.js"],
+    "scripts" : ["assets/js/google-analytics.js", "translate.js", "background.js"],
     "persistent": false
   },
   "options_page": "options.html",
@@ -34,7 +34,7 @@
     "48" : "assets/img/48.png",
     "128" : "assets/img/128.png"
   },
-  "permissions": [ 
+  "permissions": [
     "http://google.com/",
     "tabs",
     "<all_urls>",
